@@ -1,0 +1,6 @@
+{
+  "name": "MessFlow — Mess Management Operating System",
+  "description": "Production-ready mess, hostel, and shared living financial & meal management platform tailored for Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

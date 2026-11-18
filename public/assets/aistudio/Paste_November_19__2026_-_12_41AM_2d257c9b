@@ -1,0 +1,1975 @@
+# MASTER PRODUCT & DEVELOPMENT PROMPT
+## MESSFLOW — Complete Mess Management Ecosystem
+
+You are acting as a world-class multidisciplinary product team consisting of:
+
+- Senior Product Strategist
+- Bangladesh Market Researcher
+- SaaS Business Architect
+- Principal Software Architect
+- Senior Full-Stack Developer
+- Senior Flutter/Android Engineer
+- UI/UX Design Director
+- Product Designer
+- Database Engineer
+- Security Engineer
+- QA Engineer
+- Growth & Monetization Strategist
+
+Your mission is to conceptualize, design, architect, and build a complete, production-ready **Mess Management Platform** that solves real everyday problems for people operating and living in shared accommodation.
+
+This is not a generic CRUD application.
+
+This is not a basic expense tracker.
+
+This is not a spreadsheet with a modern UI.
+
+This must become a genuinely useful product that people in Bangladesh can adopt for managing their mess, hostel, shared apartment, student accommodation, bachelor housing, and residential operations.
+
+The product should have a highly polished Web Application and a dedicated Android application that can eventually be published on Google Play Store.
+
+---
+
+# 01 — PRODUCT VISION
+
+Create a modern digital operating system for shared living.
+
+The platform should simplify the complete lifecycle of running a mess:
+
+- Managing members
+- Managing rooms and beds
+- Daily meal tracking
+- Meal attendance
+- Bazar and grocery expenses
+- Monthly rent
+- Utility bills
+- Gas, electricity, water, internet
+- Staff expenses
+- Member deposits
+- Meal rates
+- Individual balances
+- Monthly settlements
+- Due management
+- Payment records
+- Notices
+- Member communication
+- Mess rules
+- Monthly reports
+- Historical records
+- Member joining and leaving
+- Manager responsibilities
+- Mess owner responsibilities
+- Financial transparency
+
+The most important product principle:
+
+**A user should not need to understand accounting to manage a mess properly.**
+
+The system should automatically calculate things wherever possible and make complex financial information understandable to ordinary users.
+
+The product should reduce:
+
+- Manual calculations
+- Human errors
+- Arguments about money
+- Unnecessary WhatsApp messages
+- Forgotten payments
+- Confusion about meal counts
+- Confusion about who owes whom
+- Repeated questions to the manager
+- Time spent creating monthly হিসাব
+- Dependency on one person maintaining a notebook
+
+---
+
+# 02 — MARKET AND PRODUCT RESEARCH
+
+Before implementation, perform serious product discovery.
+
+Research existing products and solutions related to:
+
+- Mess management
+- Hostel management
+- Roommate expense management
+- Shared household expense apps
+- Indian hostel management software
+- Bangladeshi accommodation management
+- Meal tracking applications
+- Shared expense applications
+- Property management tools
+- Student housing software
+
+Analyze their:
+
+- Features
+- Pricing
+- UX
+- Weaknesses
+- User complaints
+- Missing functionality
+- Monetization strategies
+- Mobile experience
+- Onboarding
+
+Do not blindly copy existing products.
+
+Identify the actual unmet needs of Bangladesh's mess-management market.
+
+Think specifically about:
+
+- Bangladesh's payment behavior
+- bKash
+- Nagad
+- Rocket
+- Bank transfers
+- Cash payments
+- Unstable internet connections
+- Low digital literacy among some users
+- Bengali language requirements
+- Bachelor mess culture
+- Students
+- Job holders
+- Small mess owners
+- Managers
+- Members sharing costs
+- People moving between messes
+- Monthly payment cycles
+- Bazar expenses
+- Member disagreements
+- Rent and utility calculations
+
+Create a research-based product strategy.
+
+Do not invent research findings.
+
+If external research is unavailable, clearly separate verified information from assumptions.
+
+The final product should be designed primarily for Bangladesh initially, but the architecture should be capable of supporting other countries in the future.
+
+---
+
+# 03 — PRODUCT NAME AND BRAND IDENTITY
+
+Create a unique, premium, memorable brand identity.
+
+Working name:
+
+**MessFlow**
+
+Do not assume this name is final.
+
+Explore alternative names that are:
+
+- Short
+- Easy to pronounce
+- Memorable
+- Modern
+- Suitable for Bangladesh
+- Suitable for international expansion
+- Available for app branding if possible
+
+The product should not look like an old-fashioned hostel accounting system.
+
+Create a brand that feels like:
+
+**Modern Living + Financial Clarity + Community + Simplicity**
+
+Brand personality:
+
+- Friendly
+- Trustworthy
+- Calm
+- Modern
+- Intelligent
+- Transparent
+- Efficient
+- Human
+
+Avoid:
+
+- Corporate banking aesthetics
+- Generic fintech design
+- Excessive gradients
+- Overused purple AI-style UI
+- Unnecessary glassmorphism
+- Excessive cards
+- Complicated charts
+- Cheap-looking dashboard templates
+- Emoji-heavy interfaces
+
+Develop:
+
+- Logo concept
+- Icon system
+- Color palette
+- Typography
+- Design tokens
+- Brand language
+- Bengali typography strategy
+- English typography strategy
+- App icon
+- Splash screen
+- Empty-state illustrations
+- Notification style
+
+---
+
+# 04 — CREATIVE UI/UX DIRECTION
+
+The UI must be exceptionally creative, modern, practical, and easy to understand.
+
+Do not create a standard admin dashboard with 20 cards.
+
+Instead, design an experience around the concept:
+
+## "The Living Mess"
+
+A mess is a living system.
+
+It has:
+
+- Members
+- Meals
+- Money
+- Rooms
+- Daily activity
+- Shared responsibilities
+- Monthly cycles
+
+The UI should communicate the current state of the mess at a glance.
+
+Develop a creative visual system called:
+
+**Mess Pulse**
+
+The Mess Pulse represents the current health and activity of a mess.
+
+It can communicate:
+
+- Today's meal status
+- Total active members
+- Today's meal count
+- Current month expense
+- Current month balance
+- Outstanding dues
+- Upcoming payment deadlines
+- Recent activities
+
+Use meaningful visual representations instead of simply displaying numerical cards.
+
+Possible creative interface concepts:
+
+### A. Mess Pulse Dashboard
+
+A central visual dashboard that shows:
+
+- Today's meals
+- Active members
+- Current monthly cycle
+- Financial status
+- Pending tasks
+- Important notices
+
+The dashboard should feel alive but not distracting.
+
+### B. Meal Rhythm
+
+Daily meal activity displayed through an intuitive timeline.
+
+Breakfast → Lunch → Dinner
+
+Members can quickly see:
+
+- Meal availability
+- Their meal status
+- Today's meal count
+- Meal booking deadline
+- Meal cancellation deadline
+
+### C. Money Flow
+
+A visual representation of where money is going.
+
+For example:
+
+- Bazar
+- Rent
+- Gas
+- Electricity
+- Internet
+- Water
+- Staff
+- Other expenses
+
+Users should immediately understand:
+
+"Where did my money go?"
+
+### D. Personal Financial Clarity
+
+Each member should have a personalized financial view.
+
+It should clearly show:
+
+- Previous balance
+- Total deposit
+- Total expense share
+- Current balance
+- Amount payable
+- Amount receivable
+- Payment history
+
+Use language that is easy to understand.
+
+Never make a member feel confused by accounting terminology.
+
+### E. Community Activity
+
+A transparent activity timeline.
+
+Examples:
+
+- Rahim added today's bazar expense
+- Karim submitted a payment
+- Manager updated meal count
+- Monthly হিসাব completed
+- New member joined
+- Electricity bill added
+
+The activity feed should improve transparency and trust.
+
+---
+
+# 05 — USER TYPES AND PERMISSIONS
+
+Design a complete role-based system.
+
+## Super Admin
+
+Platform owner.
+
+Responsibilities:
+
+- Manage all messes
+- Manage users
+- Manage subscriptions
+- View platform analytics
+- Manage payment settings
+- Manage support
+- Control system configuration
+- Monitor platform health
+- Suspend fraudulent accounts
+- Manage subscription plans
+
+Super Admin must have a separate secure administration panel.
+
+## Mess Owner
+
+The person who owns or controls the mess.
+
+Capabilities:
+
+- Create mess
+- Manage members
+- Assign managers
+- Manage rooms
+- Manage meal system
+- Manage expenses
+- Manage deposits
+- Manage rent
+- Manage financial settings
+- View reports
+- Export data
+- Manage subscription
+- Approve financial transactions
+- Configure permissions
+
+## Manager
+
+Responsible for daily mess operations.
+
+Capabilities should be configurable.
+
+Possible permissions:
+
+- Manage daily meals
+- Add bazar expenses
+- Add utility bills
+- Manage members
+- Manage deposits
+- View reports
+- Manage notices
+- Record payments
+
+Owner should be able to restrict certain permissions.
+
+## Member
+
+A resident of the mess.
+
+Members should be able to:
+
+- View their meal count
+- Update meal preferences
+- Book meals
+- Cancel meals within allowed deadlines
+- View monthly expenses
+- View meal rate
+- View personal balance
+- View payment history
+- Submit payment information
+- View notices
+- View mess rules
+- View room information
+- View monthly reports
+- Contact the manager
+- Receive notifications
+
+## Accountant (Optional Role)
+
+A role for managing financial records without controlling the entire mess.
+
+## Guest / Pending Member
+
+New members invited to join but not yet fully approved.
+
+---
+
+# 06 — WEB APPLICATION
+
+Build a highly polished responsive web application.
+
+Target:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile browser
+
+The web application should primarily serve:
+
+- Mess owners
+- Managers
+- Accountants
+- Super Admin
+
+Create a well-structured navigation system.
+
+Suggested navigation:
+
+1. Overview
+2. Members
+3. Rooms
+4. Meals
+5. Bazar
+6. Expenses
+7. Payments
+8. Accounts
+9. Reports
+10. Notices
+11. Settings
+
+Do not blindly implement this exact navigation if product research indicates a better structure.
+
+Optimize for frequent actions.
+
+The user should be able to perform the most common daily tasks in seconds.
+
+---
+
+# 07 — DASHBOARD EXPERIENCE
+
+Design a high-quality dashboard.
+
+The dashboard should answer these questions immediately:
+
+### Today
+
+- How many members are active?
+- How many meals are booked?
+- Who is eating today?
+- Is there any pending task?
+- What expenses were added today?
+
+### Current Month
+
+- Total expenses
+- Total bazar
+- Total utility costs
+- Total deposits
+- Total collections
+- Current meal rate
+- Total due
+- Financial balance
+
+### Important Alerts
+
+- Members with outstanding dues
+- Upcoming rent
+- Utility bills
+- Meal submission deadline
+- Pending payment verification
+- Members leaving soon
+- Monthly হিসাব not completed
+
+The dashboard should be intelligent.
+
+Do not display irrelevant information.
+
+Use contextual insights.
+
+Example:
+
+"Your mess spent ৳2,450 on bazar this week. That's 12% higher than last week."
+
+Only display insights if the underlying data supports them.
+
+Never generate fake analytics.
+
+---
+
+# 08 — MEMBER MANAGEMENT
+
+Implement a complete member management system.
+
+Member fields may include:
+
+- Full name
+- Profile photo
+- Phone number
+- Email
+- Emergency contact
+- Joining date
+- Leaving date
+- Room
+- Bed
+- Monthly rent
+- Status
+- Role
+- Deposit
+- Personal notes
+- Payment history
+
+Member statuses:
+
+- Active
+- Pending
+- Temporarily Away
+- Leaving Soon
+- Left
+- Suspended
+
+Create a visually polished member directory.
+
+Features:
+
+- Search
+- Filters
+- Sorting
+- Member profile
+- Member financial summary
+- Member meal history
+- Member payment history
+- Member expense history
+- Member deposit history
+
+Member onboarding must be simple.
+
+Provide:
+
+- Invitation link
+- QR code
+- Phone-based invitation
+- Optional email invitation
+
+The invited member should not need to understand complicated setup.
+
+---
+
+# 09 — MEAL MANAGEMENT SYSTEM
+
+This is one of the most important modules.
+
+Build a complete meal management system.
+
+Support:
+
+- Breakfast
+- Lunch
+- Dinner
+- Optional snacks
+
+Meal configuration should be customizable.
+
+The mess may have:
+
+- Fixed meals
+- Variable meals
+- Guest meals
+- Meal-based charges
+- Monthly fixed charges
+- Different meal rates
+
+Implement daily meal tracking.
+
+Each member should be able to:
+
+- Enable meal
+- Disable meal
+- Book a meal
+- Cancel a meal
+- View their daily meal status
+
+Manager should be able to:
+
+- Edit meal counts
+- View today's meal list
+- View total meal count
+- View meal history
+- Set meal deadlines
+- Lock meal records
+- Add guest meals
+- Correct errors with audit logs
+
+Create a visually engaging meal calendar.
+
+Do not make it a boring spreadsheet.
+
+Explore:
+
+- Calendar visualization
+- Meal timeline
+- Daily meal activity
+- Weekly meal overview
+- Member meal heatmap
+
+The design must remain easy to use.
+
+### Meal Rules
+
+Implement configurable rules:
+
+- Meal booking deadline
+- Meal cancellation deadline
+- Manager override
+- Guest meal price
+- Meal count locking
+- Correction history
+- Special meal days
+
+The system must calculate meal totals correctly.
+
+---
+
+# 10 — BAZAR MANAGEMENT
+
+Create a dedicated Bazar module.
+
+Bazar is a major part of Bangladesh's mess culture.
+
+The system should make bazar tracking exceptionally easy.
+
+Manager or authorized members can add:
+
+- Rice
+- Vegetables
+- Meat
+- Fish
+- Eggs
+- Oil
+- Spices
+- Grocery items
+- Cleaning products
+- Other purchases
+
+Each transaction may include:
+
+- Amount
+- Date
+- Category
+- Description
+- Purchased by
+- Vendor
+- Payment method
+- Receipt image
+- Notes
+
+Create a quick expense entry experience.
+
+The user should be able to add an expense in less than 10 seconds.
+
+Possible flow:
+
+Amount → Category → Optional description → Save
+
+Allow receipt photo upload.
+
+Create:
+
+- Daily bazar list
+- Weekly bazar report
+- Monthly bazar report
+- Category breakdown
+- Person-wise bazar contribution
+- Expense history
+
+Optional future feature:
+
+OCR receipt scanning.
+
+Do not implement expensive AI features without considering their actual value and cost.
+
+---
+
+# 11 — COMPLETE EXPENSE MANAGEMENT
+
+Expenses should support:
+
+- Bazar
+- Rent
+- Electricity
+- Gas
+- Water
+- Internet
+- Cleaning
+- Staff salary
+- Maintenance
+- Furniture
+- Other
+
+Allow custom categories.
+
+Every expense should contain:
+
+- Amount
+- Category
+- Date
+- Paid by
+- Payment method
+- Description
+- Attachment
+- Approval status
+- Created by
+- Created timestamp
+
+Create an audit trail.
+
+Financial records should not be silently deleted.
+
+Implement:
+
+- Edit history
+- Deleted/voided records
+- Correction records
+- Approval system
+
+The owner should be able to configure expense approval rules.
+
+---
+
+# 12 — FINANCIAL ENGINE
+
+This is the core of the product.
+
+Build a reliable financial calculation system.
+
+Do not perform financial calculations in random UI components.
+
+Create a dedicated calculation and accounting layer.
+
+It must support:
+
+- Member deposits
+- Payments
+- Expenses
+- Meal costs
+- Fixed costs
+- Variable costs
+- Rent
+- Utilities
+- Adjustments
+- Previous balances
+- Current balances
+- Refunds
+- Outstanding dues
+
+Implement configurable expense distribution methods.
+
+Examples:
+
+### Method 1 — Equal Distribution
+
+Shared expense divided equally among eligible members.
+
+### Method 2 — Meal-Based Distribution
+
+Expense distribution based on meal count.
+
+### Method 3 — Fixed Distribution
+
+Each member pays a configured amount.
+
+### Method 4 — Custom Distribution
+
+Owner/manager manually assigns amounts.
+
+### Method 5 — Hybrid Distribution
+
+For example:
+
+- Rent equally distributed
+- Bazar meal-based
+- Internet equally distributed
+- Guest meals charged separately
+
+Create a configurable expense allocation system.
+
+---
+
+# 13 — MEAL RATE CALCULATION
+
+Implement transparent meal-rate calculation.
+
+Possible calculation:
+
+Total meal-related expenses ÷ Total eligible meals = Meal rate
+
+However, the actual calculation must be configurable.
+
+Support:
+
+- Bazar cost
+- Other meal-related costs
+- Guest meals
+- Member meal counts
+- Adjustments
+- Previous month balances
+
+The system must clearly explain:
+
+- Total expense
+- Total meals
+- Calculated meal rate
+- Individual member cost
+
+Never hide calculation logic.
+
+Create a:
+
+"How your meal rate was calculated"
+
+section.
+
+Users should be able to see the complete breakdown.
+
+---
+
+# 14 — MEMBER BALANCE SYSTEM
+
+Each member should have a transparent ledger.
+
+Example:
+
+Previous balance: ৳500
+
+Deposited: ৳3,000
+
+Meal expense: ৳2,250
+
+Rent share: ৳1,000
+
+Utilities: ৳300
+
+Other expenses: ৳150
+
+Final balance: ৳-200
+
+The system must clearly distinguish:
+
+- Positive balance
+- Negative balance
+- Due
+- Advance
+- Refund
+
+Do not confuse users with accounting terminology.
+
+Use understandable labels.
+
+Implement a transaction ledger.
+
+Every balance must be traceable.
+
+Never allow manually changing a calculated balance without creating a corresponding adjustment transaction.
+
+---
+
+# 15 — PAYMENT SYSTEM
+
+Support:
+
+- Cash
+- bKash
+- Nagad
+- Rocket
+- Bank transfer
+- Other payment methods
+
+Initially, payment recording can be manual.
+
+Members may submit:
+
+- Amount
+- Payment method
+- Transaction ID
+- Payment date
+- Screenshot
+
+Manager or owner can:
+
+- Approve
+- Reject
+- Request clarification
+
+After approval, the payment must update the financial ledger.
+
+Avoid automatically trusting uploaded screenshots.
+
+Support payment verification.
+
+Architecture should be ready for future payment gateway integrations.
+
+Do not assume payment gateway availability.
+
+Research relevant Bangladesh payment integration requirements before implementing real payment processing.
+
+---
+
+# 16 — MONTHLY SETTLEMENT
+
+Create an exceptional monthly closing experience.
+
+At the end of each month:
+
+The system should generate:
+
+- Total bazar
+- Total expenses
+- Total meals
+- Meal rate
+- Rent allocation
+- Utility allocation
+- Individual member expenses
+- Total deposits
+- Outstanding dues
+- Member balances
+- Previous month carry-forward
+
+Create a visually polished:
+
+**Monthly Mess Statement**
+
+Each member should receive their own personalized statement.
+
+The statement should be:
+
+- Easy to understand
+- Downloadable
+- Shareable
+- Printable
+- PDF-ready
+
+Create a month-closing workflow.
+
+Before closing:
+
+- Check missing expenses
+- Check meal records
+- Check payments
+- Check member balances
+- Check pending transactions
+
+After closing:
+
+- Lock the month
+- Preserve historical records
+- Allow controlled correction through adjustment entries
+- Never silently rewrite closed financial records
+
+---
+
+# 17 — ROOM AND BED MANAGEMENT
+
+Support:
+
+- Buildings
+- Floors
+- Rooms
+- Beds
+- Occupancy
+
+Features:
+
+- Room capacity
+- Current occupants
+- Empty beds
+- Member assignment
+- Rent
+- Move-in date
+- Move-out date
+- Room change history
+
+Create a visual room layout.
+
+Avoid making it look like a property management ERP.
+
+Keep it simple.
+
+---
+
+# 18 — NOTICE AND COMMUNICATION SYSTEM
+
+Create a central notice system.
+
+Notices can include:
+
+- Bazar schedule
+- Payment deadline
+- Meal changes
+- Maintenance
+- Water problems
+- Electricity issues
+- Mess meeting
+- Important announcements
+
+Allow:
+
+- Notice creation
+- Notice priority
+- Notice expiration
+- Targeted notices
+- Read status
+- Notifications
+
+Create a clean notice feed.
+
+---
+
+# 19 — SMART NOTIFICATIONS
+
+Notifications must be useful, not spammy.
+
+Support:
+
+- Meal deadline
+- Meal cancellation deadline
+- Payment due
+- Payment approved
+- Payment rejected
+- Monthly settlement
+- New notice
+- New expense
+- Member invitation
+- Upcoming rent
+- Important updates
+
+Implement notification preferences.
+
+Users should be able to choose notification types.
+
+Use push notifications on Android where appropriate.
+
+Use email notifications where appropriate.
+
+Avoid unnecessary SMS costs.
+
+---
+
+# 20 — ANDROID APPLICATION
+
+Build a dedicated Android app.
+
+It must be designed specifically for mobile.
+
+Do not simply shrink the web dashboard.
+
+The Android app's primary users are mess members.
+
+The experience must be fast, intuitive, and lightweight.
+
+Primary navigation should be carefully designed.
+
+Possible bottom navigation:
+
+- Home
+- Meals
+- হিসাব
+- Activity
+- Profile
+
+Explore a better navigation structure if necessary.
+
+The app must support:
+
+- Authentication
+- Mess joining
+- Member dashboard
+- Meal booking
+- Meal cancellation
+- Meal history
+- Financial balance
+- Payment history
+- Expense transparency
+- Notifications
+- Notices
+- Member profile
+- Settings
+
+### Android UX Requirements
+
+- One-handed usability
+- Large touch targets
+- Fast loading
+- Smooth navigation
+- Native-feeling interactions
+- Android back button support
+- Proper keyboard behavior
+- Loading states
+- Error states
+- Offline states
+- Empty states
+- Permission handling
+- Notification permission handling
+- Deep links
+- App update compatibility
+
+Use native Android capabilities where appropriate.
+
+Do not overcomplicate the interface.
+
+---
+
+# 21 — OFFLINE-FIRST EXPERIENCE
+
+Internet access may not always be reliable.
+
+Implement an intelligent offline strategy.
+
+Users should be able to:
+
+- View previously loaded information
+- View meal records
+- View their balance
+- View recent activity
+- Draft certain actions offline
+
+When the connection returns:
+
+- Synchronize safely
+- Prevent duplicate transactions
+- Resolve conflicts
+- Show sync status
+
+Never pretend an offline transaction has been successfully synced.
+
+Clearly show:
+
+- Saved locally
+- Sync pending
+- Synced
+- Sync failed
+
+Design a reliable synchronization architecture.
+
+---
+
+# 22 — BENGALI AND ENGLISH LANGUAGE
+
+Support:
+
+- বাংলা
+- English
+
+The application should support:
+
+- Language switching
+- Bengali numerals if appropriate
+- Bengali date formatting
+- Bangladesh currency
+- Local date and time
+- Bengali text
+- English text
+
+Do not hardcode text throughout the application.
+
+Implement proper localization.
+
+Typography must be carefully selected.
+
+Bengali text should look polished.
+
+Avoid broken Bengali typography.
+
+---
+
+# 23 — REPORTING AND ANALYTICS
+
+Create meaningful reports.
+
+### Financial Reports
+
+- Monthly expenses
+- Bazar expenses
+- Utility expenses
+- Member balances
+- Deposits
+- Payments
+- Dues
+
+### Meal Reports
+
+- Daily meals
+- Monthly meals
+- Member meal history
+- Meal rate trends
+
+### Member Reports
+
+- Active members
+- Member joining
+- Member leaving
+- Occupancy
+
+### Comparative Reports
+
+- Month-over-month expenses
+- Bazar trends
+- Utility trends
+- Meal rate trends
+
+Support:
+
+- PDF export
+- CSV export
+- Print
+
+Create beautiful report visualizations.
+
+Do not overuse charts.
+
+Use charts only when they improve understanding.
+
+---
+
+# 24 — SUPER ADMIN PANEL
+
+Create a separate platform administration dashboard.
+
+Super Admin can manage:
+
+- Users
+- Messes
+- Subscriptions
+- Plans
+- Platform settings
+- Reports
+- Support requests
+- Feature flags
+- System notifications
+- Abuse reports
+
+Platform analytics:
+
+- Total users
+- Total messes
+- Active messes
+- Monthly active users
+- New registrations
+- Subscription revenue
+- Churn
+- App usage
+
+Implement appropriate security.
+
+Super Admin access must never be available through ordinary user role manipulation.
+
+---
+
+# 25 — BUSINESS MODEL
+
+Develop a realistic business model for Bangladesh.
+
+Do not assume that individual bachelor mess members will pay expensive subscriptions.
+
+Explore:
+
+### Free Plan
+
+For small messes.
+
+Possible limitations:
+
+- Limited members
+- Basic meal management
+- Basic expenses
+- Basic reports
+
+### Premium Plan
+
+For larger messes.
+
+Potential features:
+
+- More members
+- Advanced reports
+- PDF exports
+- Automated monthly statements
+- Multiple managers
+- Advanced permissions
+- Historical data
+- Multiple rooms
+
+### Owner / Hostel Plan
+
+For:
+
+- Hostel owners
+- Multiple messes
+- Multiple branches
+- Larger residential operations
+
+Possible features:
+
+- Multi-mess management
+- Advanced reports
+- Central dashboard
+- Multiple managers
+- Occupancy management
+
+Research realistic Bangladesh pricing.
+
+Do not make the pricing unnecessarily expensive.
+
+Consider:
+
+- Monthly
+- Yearly
+- Per mess
+- Per member
+
+The product should provide meaningful value before asking users to pay.
+
+Do not use deceptive monetization.
+
+Do not create artificial feature restrictions that destroy the free experience.
+
+---
+
+# 26 — SECURITY AND PRIVACY
+
+Implement:
+
+- Secure authentication
+- Authorization
+- Role-based access control
+- Data isolation between messes
+- Secure database policies
+- Input validation
+- Rate limiting
+- Secure file uploads
+- Audit logs
+- Session management
+- Password security
+- Account deletion
+- Data export
+
+Financial records must be protected.
+
+Users must never be able to access another mess's private information.
+
+Use strict multi-tenant architecture.
+
+If using Supabase, implement Row Level Security correctly.
+
+Never expose:
+
+- Service role keys
+- Secret API keys
+- Private credentials
+
+Implement secure environment variables.
+
+---
+
+# 27 — TECHNICAL ARCHITECTURE
+
+Choose the best architecture for this project.
+
+Evaluate the tradeoffs between:
+
+### Web
+
+Possible:
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Modern component architecture
+
+### Android
+
+Possible:
+
+- Flutter
+
+### Backend
+
+Evaluate:
+
+- Supabase
+- PostgreSQL
+- NestJS
+- Other appropriate backend architecture
+
+Do not select technologies simply because they are trendy.
+
+Select based on:
+
+- Development speed
+- Reliability
+- Scalability
+- Cost
+- Maintainability
+- Android integration
+- Offline capability
+- Real-time updates
+- Security
+
+Create a shared backend.
+
+The Web and Android applications must use the same business logic and database.
+
+Do not duplicate financial calculations in multiple clients.
+
+---
+
+# 28 — DATABASE ARCHITECTURE
+
+Design a complete relational database.
+
+Possible entities:
+
+- Users
+- Messes
+- Mess memberships
+- Roles
+- Permissions
+- Buildings
+- Rooms
+- Beds
+- Members
+- Meal plans
+- Meal records
+- Meal bookings
+- Expenses
+- Expense categories
+- Bazar records
+- Deposits
+- Payments
+- Payment verification
+- Transactions
+- Ledger entries
+- Monthly settlements
+- Financial adjustments
+- Notices
+- Notifications
+- Attachments
+- Audit logs
+- Subscriptions
+- Plans
+
+Create:
+
+- Database schema
+- Relationships
+- Indexes
+- Constraints
+- Migration strategy
+
+Financial transactions must use proper transactional database operations.
+
+Prevent duplicate transactions.
+
+Prevent incorrect balance calculations.
+
+---
+
+# 29 — DESIGN SYSTEM
+
+Build a complete reusable design system.
+
+Include:
+
+- Color tokens
+- Typography
+- Spacing
+- Radius
+- Shadows
+- Buttons
+- Inputs
+- Selects
+- Dialogs
+- Bottom sheets
+- Tables
+- Lists
+- Charts
+- Cards
+- Navigation
+- Toasts
+- Loading skeletons
+- Empty states
+- Error states
+- Confirmation dialogs
+
+The design system must work for:
+
+- Web
+- Mobile
+
+Create consistency without making every screen look identical.
+
+---
+
+# 30 — UI QUALITY REQUIREMENTS
+
+Every screen must have:
+
+- Clear hierarchy
+- Primary action
+- Secondary actions
+- Proper spacing
+- Consistent typography
+- Responsive layout
+- Accessibility
+- Keyboard support
+- Loading state
+- Error state
+- Empty state
+- Success state
+
+Do not create dead buttons.
+
+Do not create fake functionality.
+
+Do not use placeholder dashboards that display fabricated financial data.
+
+If sample data is needed for development, clearly separate it from production.
+
+Use realistic sample data only in development mode.
+
+---
+
+# 31 — UX MICROINTERACTIONS
+
+Create thoughtful microinteractions.
+
+Examples:
+
+- Meal booking confirmation
+- Payment submission
+- Expense creation
+- Member invitation
+- Month closing
+- Balance updates
+- Notice acknowledgment
+
+Use subtle animations.
+
+Avoid excessive animation.
+
+The experience should feel:
+
+- Smooth
+- Premium
+- Responsive
+- Reliable
+
+---
+
+# 32 — ACCESSIBILITY
+
+Implement:
+
+- Proper contrast
+- Accessible labels
+- Keyboard navigation
+- Screen-reader compatibility
+- Large touch targets
+- Clear focus indicators
+- Reduced-motion support
+- Accessible form validation
+
+Do not sacrifice usability for visual creativity.
+
+---
+
+# 33 — PERFORMANCE
+
+Optimize:
+
+- Initial loading
+- Dashboard queries
+- Large member lists
+- Reports
+- Image uploads
+- Mobile application startup
+- Database queries
+- Offline storage
+
+Implement pagination where appropriate.
+
+Use caching intelligently.
+
+Avoid unnecessary API calls.
+
+Do not load the entire database into the frontend.
+
+---
+
+# 34 — DEVELOPMENT STRATEGY
+
+Do not attempt to build every feature simultaneously.
+
+Create a phased implementation strategy.
+
+### Phase 1 — Product Foundation
+
+- Product research
+- Product requirements
+- UX architecture
+- Design system
+- Database architecture
+- Authentication
+- Multi-tenant architecture
+
+### Phase 2 — Core Mess Operations
+
+- Mess creation
+- Member management
+- Meal management
+- Bazar management
+- Expense management
+
+### Phase 3 — Financial Engine
+
+- Deposits
+- Payments
+- Member ledger
+- Meal rate
+- Expense distribution
+- Monthly settlement
+
+### Phase 4 — Android Application
+
+- Authentication
+- Mess joining
+- Meal management
+- Personal balance
+- Payments
+- Notifications
+
+### Phase 5 — Reports
+
+- Monthly reports
+- Financial reports
+- PDF
+- CSV
+
+### Phase 6 — Advanced Features
+
+- Room management
+- Multiple messes
+- Advanced permissions
+- Offline sync
+- Analytics
+
+### Phase 7 — Production
+
+- Security audit
+- Testing
+- Deployment
+- Android build
+- Play Store preparation
+
+---
+
+# 35 — TESTING
+
+Implement comprehensive tests.
+
+### Unit Tests
+
+Test:
+
+- Meal rate calculations
+- Expense allocation
+- Member balances
+- Deposits
+- Payments
+- Monthly settlement
+- Previous balance carry-forward
+
+### Integration Tests
+
+Test:
+
+- Authentication
+- Member creation
+- Expense creation
+- Payment approval
+- Meal booking
+- Month closing
+
+### Security Tests
+
+Test:
+
+- Unauthorized access
+- Mess data isolation
+- Role permissions
+- Database policies
+
+### UI Tests
+
+Test:
+
+- Critical user journeys
+- Mobile navigation
+- Forms
+- Empty states
+- Error states
+
+Financial calculations must have extensive test coverage.
+
+---
+
+# 36 — GOOGLE PLAY STORE PREPARATION
+
+Prepare the Android application for production publication.
+
+Requirements:
+
+- Proper application name
+- Application ID
+- App icon
+- Splash screen
+- Privacy policy
+- Terms of service
+- Data safety information
+- Permissions justification
+- Account deletion functionality
+- App screenshots
+- Play Store description
+- Feature graphic
+- Release signing
+- Version management
+- Production build
+- Internal testing
+- Closed testing readiness
+
+Do not request unnecessary permissions.
+
+Do not use misleading app descriptions.
+
+Prepare a complete Play Store release checklist.
+
+---
+
+# 37 — FINAL PRODUCT EXPERIENCE
+
+The final product must feel like a real commercial software product.
+
+It should be comparable in UX quality to modern SaaS products.
+
+However, it must remain understandable for ordinary Bangladesh users.
+
+Prioritize:
+
+1. Simplicity
+2. Speed
+3. Trust
+4. Financial transparency
+5. Real usefulness
+6. Mobile usability
+7. Reliability
+8. Beautiful design
+9. Scalability
+
+The product should make users say:
+
+**"এখন মেসের হিসাব নিয়ে আর ঝামেলা করতে হয় না।"**
+
+And:
+
+**"আমি এখন সব হিসাব নিজেই বুঝতে পারি।"**
+
+And:
+
+**"আমাদের মেসের সবকিছু এক জায়গায় আছে।"**
+
+---
+
+# 38 — CURSOR EXECUTION INSTRUCTIONS
+
+Before writing code:
+
+1. Inspect the existing repository.
+2. Understand the current structure.
+3. Identify existing technologies.
+4. Identify existing functionality.
+5. Identify missing functionality.
+6. Never destroy working code unnecessarily.
+7. Create a product specification.
+8. Create architecture documentation.
+9. Create database schema.
+10. Create implementation roadmap.
+11. Create design system.
+12. Create a complete feature checklist.
+
+Then begin implementation.
+
+Do not merely produce documentation and stop.
+
+Work incrementally.
+
+Build actual functional features.
+
+After every phase:
+
+- Run tests
+- Check errors
+- Check responsiveness
+- Check database integrity
+- Check security
+- Check UI consistency
+
+Do not skip testing.
+
+Do not pretend incomplete features are complete.
+
+Do not create fake buttons.
+
+Do not use mock functionality in production.
+
+Do not leave TODOs for critical features.
+
+---
+
+# 39 — CREATIVE FREEDOM
+
+You have permission to introduce genuinely innovative features if they provide practical value.
+
+Examples of possible innovations:
+
+### Mess Health Score
+
+A transparent indicator of the mess's operational condition.
+
+It may consider:
+
+- Financial completeness
+- Pending dues
+- Missing meal records
+- Unverified payments
+- Pending expenses
+
+Do not make this a meaningless gamification feature.
+
+### Smart Expense Insights
+
+Automatically detect:
+
+- Unusually high expenses
+- Duplicate expense entries
+- Missing receipts
+- Sudden bazar cost changes
+
+### Fairness Insights
+
+Help identify situations where:
+
+- One member is paying disproportionately
+- Meal counts may be inconsistent
+- Expense distribution may be incorrect
+
+Never accuse users automatically.
+
+Provide evidence and allow review.
+
+### Monthly Memory
+
+Preserve a timeline of each month's activity.
+
+Members can understand:
+
+"What happened this month?"
+
+### Mess Assistant
+
+A contextual assistant that helps users:
+
+- Understand their balance
+- Understand meal rate
+- Understand monthly expenses
+- Find missing payments
+- Explain calculations
+
+AI must never invent financial information.
+
+AI responses must be based on actual database records.
+
+### Quick Actions
+
+Allow common operations to be completed with minimal interaction.
+
+Examples:
+
+- Add Bazar
+- Add Payment
+- Book Meal
+- Add Member
+- Create Notice
+
+Explore other unique features based on actual user problems.
+
+Do not implement novelty for novelty's sake.
+
+---
+
+# 40 — YOUR FINAL RESPONSIBILITY
+
+You are responsible for turning this concept into a coherent, usable, commercially viable product.
+
+Do not simply follow the requirements mechanically.
+
+Think critically.
+
+Identify missing requirements.
+
+Improve workflows.
+
+Simplify complicated features.
+
+Prioritize the most important features.
+
+Make intelligent product decisions.
+
+The result must be:
+
+**A complete, beautifully designed, highly usable, reliable Mess Management ecosystem with a professional Web Dashboard and Android Play Store application, built for real people and real mess operations.**
+
+The quality bar is:
+
+**Best possible UX + Practical Bangladesh market fit + Reliable financial calculations + Creative product thinking + Production-quality architecture.**
+
+Start by analyzing the repository and creating the complete product blueprint. Then implement the project phase by phase without sacrificing quality.
